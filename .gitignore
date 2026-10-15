@@ -1,0 +1,39 @@
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
+.ipynb_checkpoints/
+
+# Chest X-ray datasets
+chest_xray/
+datasets/
+data/
+
+# Trained models and generated outputs
+outputs/
+*.keras
+*.h5
+*.hdf5
+*.pt
+*.pth
+
+# Local reports and documents
+*.docx
+
+# Local backup scripts
+*_backup.py
+*_original_attempt.py
+*_before_*.py
+*_working_backup.py
+
+# Local configuration
+.env
+.env.*
+
+# Original obsolete files
+code/obsolete/
+demo/obsolete/
+setup.py
